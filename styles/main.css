@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-top {
+    background-color: #313131;
+}
+
+.architect-logo {
+    color: white;
+    background-color: #313131;
+    display: flex;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main-menu-item {
+    margin: 4px;
+}
+
+.design-heading {
+    height: 337px; width: 1263px;
+    background-image: url(/images/header-bg.jpeg);
+}
